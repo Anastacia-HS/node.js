@@ -4,7 +4,7 @@ var fs = require('fs');
 fs.open('./output.txt', 'w', function(err, fd) {
   if(err) throw err;
 
-  var buf = new Buffer('안녕!\n');
+  var buf = new Buffer('안녕하세요 권혜수 입니다.\n');
   fs.write(fd, buf, 0, buf.length, null, function(err, written, buffer) {
     if(err) throw err;
 

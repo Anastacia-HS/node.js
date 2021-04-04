@@ -14,5 +14,5 @@ fs.exists(outname, function(exists) {
   var outfile = fs.createWriteStream(outname, {flags: 'w'});
 
   infile.pipe(outfile);
-  console.log('파일 복사 [' + inname + '] => [' + outname + ']');
+  console.log('3203 권혜수 - 파일 복사 [' + inname + '] => [' + outname + ']');
 });

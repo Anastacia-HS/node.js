@@ -4,7 +4,7 @@ var fs  =require('fs');
  var outfile = fs.createWriteStream('./output2.txt', {flags : 'w'});
 
  infile.on('data', function(data) {
-   console.log('읽어들인 데이터', data);
+   console.log('3203 권혜수 - 읽어들인 데이터', data);
    console.log('첫 번째 버퍼의 문자열 : %s', data.toString());
    outfile.write(data);
  });
